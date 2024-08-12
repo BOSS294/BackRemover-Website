@@ -20,11 +20,15 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="canonical" href="https://www.yourwebsite.com"> 
     <link rel="stylesheet" href="/Assets/Main/Styles/main.css">
+    <link rel="stylesheet" href="/Assets/Website/Styles/main-section.css">
+
 
     <link rel="stylesheet" href="/Assets/Main/Resources/nav.css">
 </head>
 <body>
     <?php include 'Assets/Main/Resources/nav-bar.php'; ?>
+
+    <?php include 'Assets/Website/Contents/main-section.php'; ?>
 
 </body>
 </html>

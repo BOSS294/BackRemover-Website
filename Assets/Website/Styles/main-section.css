@@ -1,0 +1,82 @@
+/* Google Icons Import */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Main Section Styling */
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+    padding: 2rem;
+    gap: 2rem;
+    box-sizing: border-box; /* Ensures padding is included in width/height */
+    background-color: #1A1A1A; /* Optional: Set a background color */
+}
+
+
+/* Upload Frame Styling */
+.upload-frame {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px dashed #FFD700;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 17%);
+    cursor: pointer;
+    margin-left: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Plus Icon Styling */
+.plus-icon {
+    font-size: 1px;
+    color: #e1e1e1;
+    transition: all 0.3s ease;
+    background-color:  hsl(0, 0%, 17%);
+
+}
+
+.upload-frame:hover .plus-icon {
+    transform: scale(1.2);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+/* Upload Details Styling */
+.upload-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    color: #fcfcfc;
+}
+
+.upload-details p {
+    margin: 0.5rem 0;
+    color: #FFD700;
+    font-size: 0.9rem;
+}
+
+/* Buttons Styling */
+.upload-btn, .download-btn {
+    background-color: #FFD700;
+    color: #2C2C2C;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0.5rem 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.upload-btn:hover, .download-btn:hover {
+    background-color: #E6AC00;
+    transform: translateY(-3px);
+}
